@@ -1,6 +1,6 @@
 {
-    "name": "AdBlocker",
-    "version": "1.0",
+    "name": "AdBlockerPlus",
+    "version": "1.1",
     "manifest_version": 3,
     "description": "Block annoying ads on webpages",
     "permissions": ["webRequest", "webRequestBlocking", "storage", "tabs"],
@@ -20,7 +20,7 @@
       "128": "icon128.png"
     },
     "browser_action": {
-      "default_title": "AdBlocker",
+      "default_title": "AdBlockerPlus",
       "default_popup": "popup.html"
     }
   }

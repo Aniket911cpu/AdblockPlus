@@ -1,10 +1,72 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>AdBlocker</title>
-    <script src="popup.js"></script>
-  </head>
-  <body>
-    <button id="hide-ads-btn">Hide Ads</button>
-  </body>
+<head>
+	<title>My Webpage</title>
+	<style>
+		header {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			background-color: #eee;
+			padding: 20px;
+		}
+
+		.logo {
+			height: 50px;
+		}
+
+		.btn {
+			background-color: #333;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+
+		.btn:hover {
+			background-color: #555;
+		}
+
+		.banner {
+			background-image: url('https://example.com/banner.jpg');
+			background-size: cover;
+			height: 300px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.btn-container {
+			display: flex;
+			justify-content: space-between;
+			margin: 20px;
+		}
+
+		.btn-container .btn {
+			flex: 1;
+			margin: 0 10px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="https://example.com/logo.png" alt="Logo" class="logo">
+		<div>
+			<button class="btn">Button 1</button>
+			<button class="btn">Button 2</button>
+		</div>
+	</header>
+
+	<div class="banner">
+		<h1>Welcome to my webpage</h1>
+	</div>
+
+	<div class="btn-container">
+		<button class="btn">Button A</button>
+		<button class="btn">Button B</button>
+	</div>
+</body>
 </html>
