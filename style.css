@@ -1,0 +1,52 @@
+body {
+	margin: 5;
+	padding: 5;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #eee;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.logo img {
+	height: 50px;
+}
+
+.icons {
+	color: #0c0c0c;
+	margin-right: 20px;
+}
+
+.banner {
+	background-image: url('https://example.com/banner.jpg');
+	background-size: cover;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+.btn {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #555;
+}

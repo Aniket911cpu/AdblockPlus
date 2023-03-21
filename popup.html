@@ -2,71 +2,27 @@
 <html>
 <head>
 	<title>My Webpage</title>
-	<style>
-		header {
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-			background-color: #eee;
-			padding: 20px;
-		}
-
-		.logo {
-			height: 50px;
-		}
-
-		.btn {
-			background-color: #333;
-			color: #fff;
-			padding: 10px 20px;
-			border: none;
-			border-radius: 5px;
-			font-size: 16px;
-			cursor: pointer;
-			transition: background-color 0.3s ease;
-		}
-
-		.btn:hover {
-			background-color: #555;
-		}
-
-		.banner {
-			background-image: url('https://example.com/banner.jpg');
-			background-size: cover;
-			height: 300px;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
-
-		.btn-container {
-			display: flex;
-			justify-content: space-between;
-			margin: 20px;
-		}
-
-		.btn-container .btn {
-			flex: 1;
-			margin: 0 10px;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<header>
-		<img src="https://example.com/logo.png" alt="Logo" class="logo">
-		<div>
-			<button class="btn">Button 1</button>
-			<button class="btn">Button 2</button>
+		<div class="logo">
+			<img src="icon48.png" alt="Logo">
+		</div>
+		<div class="icons">
+			<i class="fas fa-search"></i>
+			<i class="fas fa-user"></i>
 		</div>
 	</header>
 
 	<div class="banner">
-		<h1>Welcome to my webpage</h1>
+		<h1>Welcome to AdBlockerPlus</h1>
 	</div>
-
+	<h2>Ads Blocked:</h2>
+	<h3>Pause on Site:</h3>
 	<div class="btn-container">
-		<button class="btn">Button A</button>
-		<button class="btn">Button B</button>
+		<button class="btn">Once</button>
+		<button class="btn">Always</button>
 	</div>
 </body>
 </html>
